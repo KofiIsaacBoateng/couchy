@@ -4,8 +4,8 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Couchy Is a Go!</Text>
-      <StatusBar style="auto" />
+      <Text style={{color: '#fff', fontSize: 34}}>Couchy Is a Go!</Text>
+      <StatusBar style='light' />
     </View>
   );
 }
@@ -13,8 +13,8 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: 'firebrick',
     alignItems: 'center',
-    justifyContent: 'center',
+    justifyContent: 'center'
   },
 });
